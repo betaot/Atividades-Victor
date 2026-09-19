@@ -1,0 +1,29 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+.Logo {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 2px solid #3e2723;
+}
+body {
+  background-color: #f5f0ea;
+  color: #2b2b2b;
+  font-family: Arial, sans-serif;
+}
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 5%;
+  background-color: #3e2723;
+}
+nav ul {
+  display: flex;
+  gap: 32px;
+  list-style: none;
+}
